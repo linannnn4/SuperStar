@@ -5,7 +5,8 @@ on:
     branches: [ main    分支：[主]]
   #是否开始每天8点定时刷课，若要开启请把下面两行注释去掉
      #时间表:#schedule:
-  # - cron: “0 8 * * *”#  - cron: "0 8 * * *" 
+  - cron: “0 8 * * *”
+  - cron: "0 8 * * *" 
     
 jobs: 
   Start:
